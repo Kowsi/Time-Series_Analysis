@@ -68,11 +68,11 @@ Summary Report           |  Forecast Volatality
 Use the results of the time series analysis and modeling to answer the following questions:
 
 1. Based on your time series analysis, would you buy the yen now?
-> `Based on the above models, its more likely going to uptrend next 5 Business days`
+> Based on the above models, its more likely to **uptrend next 5 Business days**
 2. Is the risk of the yen expected to increase or decrease?
-> `Based on GARCH Modeling analysis, **the risk is expected to increase** for the Yen`
+> Based on GARCH Modeling analysis, **the risk is expected to increase** for the Yen
 3. Based on the model evaluation, would you feel confident in using these models for trading?
-> `For ARMA & ARIMA models, p < 0.05 and also, AIC & BIC values are way high. These are **not the best models** for trading the Yen`
+> For ARMA & ARIMA models, p < 0.05 and also, AIC & BIC values are way high. These are **not the best models** for trading the Yen
 
 
 #### Linear Regression Forecasting
@@ -105,16 +105,15 @@ In this notebook, Build a Scikit-Learn linear regression model to predict Yen fu
 
 4. Out-of-sample performance.
 
-    > `Out-of-sample Root Mean Squared Error (RMSE): 0.41521640820129047`
-
+    > Out-of-sample Root Mean Squared Error (RMSE): 0.41521640820129047
 
 5. In-sample performance.
 
-    > `In-sample Root Mean Squared Error (RMSE): 0.5663352320297497`
+    > In-sample Root Mean Squared Error (RMSE): 0.5663352320297497
 
 * Does this model perform better or worse on out-of-sample data compared to in-sample data?
 
-    > `RMSE for Out-of-sample is lower (0.415) as compared to in-sample (0.566). **Model performs better on out-of-sample data**`
+    > RMSE for Out-of-sample is lower (0.415) as compared to in-sample (0.566). **Model performs better on out-of-sample data**
 
 
 - - -
