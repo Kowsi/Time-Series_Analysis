@@ -59,6 +59,7 @@ Summary Report           |  Forecast Settle Price
 
 
 4. Forecasting Volatility with **GARCH**.
+
 Summary Report           |  Forecast Volatality
 :-------------------------:|:-------------------------:
 <img src="Images/GARCH_summary.png" width="500" />   |  <img src="Images/GARCH_forecast.png" width="500" />
